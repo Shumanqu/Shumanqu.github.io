@@ -1,0 +1,47 @@
+/* Style for the html body with zero margin and zero padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* This is the style for the element with id=map */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style for the heading in the pop-up window */
+h3 {
+  border-top: 15px blue;
+  font-family: Lato, sans-serif;
+}
+
+/* Style for the paragraph in the pop-up window */
+p {
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+
+/* Style for the pop-up window */
+.my-popup .mapboxgl-popup-content {
+  width: 200px;
+  background: rgba(83, 92, 104, 0.9); /* red, green, blue, and alpha */
+  border-top: 50px black;
+  padding: 20px;
+  color: white;
+}
+
+.footer {
+  background: #f1f1f1;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  line-height: 40px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 280px !important;
+}
